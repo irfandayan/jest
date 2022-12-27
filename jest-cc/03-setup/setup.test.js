@@ -33,3 +33,9 @@ describe("animals array", () => {
     expect(animals.length).toBe(4);
   });
 });
+
+describe("testing something else", () => {
+  it.only("true should be truthy", () => {
+    expect(true).toBeTruthy();
+  });
+});
